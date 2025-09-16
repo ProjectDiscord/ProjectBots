@@ -1,55 +1,79 @@
-# DiscoBots - Discontinued Discord Bot List Project
+# ProjectBots – Discord Bot List
 
-**Note:** DiscoBots is a discontinued project, and this README serves as an archive of its history.
+**Note:** ProjectBots was previously discontinued (as of 09/26/2023), but it has now been revived as a hobby project under **ProjectDiscord**.
 
 ## Introduction
 
-Welcome to DiscoBots, a Discord bot list project that was created to help Discord server owners discover and showcase the best bots for their communities. While DiscoBots is no longer actively maintained, we hope that this documentation provides valuable insights into the project's goals and past achievements.
+Welcome to **ProjectBots**, a Discord bot list platform built to help server owners discover, showcase, and share the best bots for their communities. Originally known as **DiscoBots**, the project has been rebranded and relaunched as part of **ProjectDiscord**.
+
+This is currently a **hobby project**, meaning features and updates may come gradually, but our goal is to create a simple, modern, and community-driven bot listing experience.
 
 ## Table of Contents
 
-- [Project Status](#project-status)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+* [Project Status](#project-status)
+* [Features](#features)
+* [Getting Started](#getting-started)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
 
 ## Project Status
 
-As of **09/26/2023**, the DiscoBots project has been officially discontinued. While the project had a meaningful run and served the Discord community well during its active years, it's no longer feasible to maintain and update it.
+✅ **Active (Hobby Project)** – ProjectBots is being redeveloped with a focus on simplicity and usability.
+⚠️ Expect slower updates and experimental features while we build this platform.
+
+## Features
+
+* 📌 Bot listing with descriptions and categories
+* ⭐ Voting system for bots
+* 🔍 Search & filter functionality
+* 🛠️ Admin/Moderator panel for approvals
+* 🖥️ Modern UI with responsive design
+* (More to come!)
 
 ## Getting Started
 
-While DiscoBots is no longer operational, we encourage you to explore its codebase and use it as a reference for your own projects. Here's how you can get started with the code:
+You can run ProjectBots locally for development and testing:
 
-1. **Clone the Repository**: Begin by cloning this repository to your local machine.
+1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/ProjectDiscord/DiscoBots.git
+   git clone https://github.com/ProjectDiscord/ProjectBots.git
    ```
 
-2. **Set Up Dependencies:** Review the project's dependencies and set up the required libraries and services.
+2. **Install Dependencies**
 
-3. **Configuration:** Ensure you configure the necessary environment variables and configuration files according to your needs.
+   ```bash
+   npm install
+   ```
 
-4. **Run the Project:** Start the project on your local machine for testing and development purposes.
+3. **Configuration**
 
-Please note that since the project is discontinued, you may encounter deprecated libraries or dependencies that require updates to function correctly.
+   * Copy `example.config.js` → `config.js`
+   * Fill in your environment variables (database, Discord API keys, etc.).
+
+4. **Run Locally**
+
+   ```bash
+   npm run start
+   ```
+
+5. Visit `http://localhost:5000` to see ProjectBots in action.
 
 ## Contributing
-As DiscoBots is no longer actively maintained, we are not accepting contributions at this time. However, we appreciate your interest in the project, and you are free to fork it and use it as a starting point for your own bot list project.
+
+Since this is a hobby project, we welcome feedback and suggestions but contributions will be handled carefully.
+
+* You’re welcome to **fork** and experiment.
+* Pull requests are reviewed but may not always be merged quickly.
 
 ## License
-DiscoBots was released under the [LICENSE](LICENSE) and was subject to the terms outlined therein. Please review the license before using any part of this project in your own work.
 
-Thank you for your interest in DiscoBots, and we hope that this project's legacy continues to inspire and assist the Discord bot community in their endeavors. If you have any questions or need assistance, feel free to reach out to us.
+ProjectBots is released under the [LICENSE](LICENSE). Please review the terms before using any part of this project in your own work.
 
 ## Contact
-If you have any questions or need further information, you can reach out to us on Discord:
 
-- **GitHub:** [duckodas](https://github.com/duckodas)
-- **Discord:** [@duckodas](https://discord.com/users/711712752246325343)
+For questions, feedback, or collaboration:
 
-___
-
-Thank you for your interest in DiscoBots, and we hope that this project's legacy continues to inspire and assist the Discord bot community in their endeavors. If you have any questions or need assistance, feel free to reach out to us.
+* **GitHub:** [duckodas](https://github.com/duckodas)
+* **Discord:** [@duckodas](https://discord.com/users/711712752246325343)

@@ -1,6 +1,6 @@
 const app = require("express").Router();
 
-console.success("[Users] /users/user.js router loaded.".brightYellow);
+console.log("[Users] /users/user.js router loaded.".brightYellow);
 
 const profilesdata = require("../../database/models/profile.js");
 const botsdata = require("../../database/models/bots/bots.js");

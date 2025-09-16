@@ -1,6 +1,6 @@
 const app = require("express").Router();
 
-console.success("[Bots] /bots/comment.js router loaded.".brightYellow);
+console.log("[Bots] /bots/comment.js router loaded.".brightYellow);
 
 const rlimit = eRatelimit({
   windowMs: 30 * 1000,

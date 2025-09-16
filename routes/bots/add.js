@@ -6,7 +6,7 @@ const { EmbedBuilder } = require("discord.js");
 const base64UrlAlphabet =
   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_".split("");
 
-console.success("[Bots] /bots/new.js router loaded.".brightYellow);
+console.log("[Bots] /bots/new.js router loaded.".brightYellow);
 
 app.get("/bots/new", async (req, res) => {
   if (!req.user)

@@ -1,5 +1,5 @@
 const app = require("express").Router();
-console.success("[Home] /index router loaded.".bgYellow.black);
+console.log("[Home] /index router loaded.".bgYellow.black);
 
 app.get("/", async (req, res) => {
   let bots = await botsdata.find();

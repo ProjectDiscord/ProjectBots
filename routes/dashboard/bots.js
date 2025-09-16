@@ -2,7 +2,7 @@ const { EmbedBuilder } = require("discord.js");
 
 const app = require("express").Router();
 
-console.success("[Dashbord] / router loaded.".brightYellow);
+console.log("[Dashbord] / router loaded.".brightYellow);
 
 app.get("/dashboard/bots", async (req, res) => {
   if (!req.isAuthenticated())

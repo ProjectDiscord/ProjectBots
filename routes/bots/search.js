@@ -1,6 +1,6 @@
 const app = require("express").Router();
 
-console.success("[Bots] /bots/search.js router loaded.".brightYellow);
+console.log("[Bots] /bots/search.js router loaded.".brightYellow);
 
 const botsdata = require("../../database/models/bots/bots.js");
 

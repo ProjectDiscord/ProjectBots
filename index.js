@@ -1,5 +1,4 @@
 console.clear();
-require("cute-logs");
 const url = require("url");
 const ejs = require("ejs");
 const path = require("path");
@@ -319,7 +318,7 @@ module.exports = async (client) => {
   fs.readdirSync("./routes").forEach(async (file) => {
     console.log("===============================".white);
     if (fs.lstatSync(`./routes/${file}`).isDirectory()) {
-      console.success(`Loading ${file} routes...`.white);
+      console.log(`Loading ${file} routes...`.white);
       fs.readdirSync(`./routes/${file}`).forEach((file2) => {
         const route = require(`./routes/${file}/${file2}`);
         app.use(route);
@@ -390,8 +389,6 @@ module.exports = async (client) => {
 
   const http = require("http").createServer(app);
   http.listen(config.website.port, () => {
-    console.success(
-      `[Website] Website is online on port ${config.website.port}.`
-    );
+    console.log(`[Website] Website is online on port ${config.website.port}.`);
   });
 };

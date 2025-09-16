@@ -1,5 +1,5 @@
 {
-  "name": "discobots",
+  "name": "projectbots",
   "version": "1.0.0",
   "description": "",
   "main": "client.js",
@@ -17,7 +17,6 @@
     "connect-mongodb-session": "^3.1.1",
     "connect-pg-simple": "^7.0.0",
     "country-code-lookup": "^0.0.20",
-    "cute-logs": "^0.0.1",
     "discord": "^0.8.2",
     "discord.js": "^14.11.0",
     "ejs": "^3.1.8",

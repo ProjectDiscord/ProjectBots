@@ -6,7 +6,7 @@ const { EmbedBuilder } = require("discord.js");
 const base64UrlAlphabet =
   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_".split("");
 
-console.success("[Bots] /bots/edit.js router loaded.".brightYellow);
+console.log("[Bots] /bots/edit.js router loaded.".brightYellow);
 const botsdata = require("../../database/models/bots/bots.js");
 
 app.get("/bots/edit/:botID", async (req, res) => {

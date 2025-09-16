@@ -1,7 +1,7 @@
 const { EmbedBuilder } = require("discord.js");
 const app = require("express").Router();
 
-console.success("[Bots] /bots/delete.js router loaded.".brightYellow);
+console.log("[Bots] /bots/delete.js router loaded.".brightYellow);
 
 app.post("/bots/delete/:id", async (req, res) => {
   try {

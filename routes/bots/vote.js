@@ -1,6 +1,6 @@
 const app = require("express").Router();
 
-console.success("[Bots] /bots/vote.js router loaded.".brightYellow);
+console.log("[Bots] /bots/vote.js router loaded.".brightYellow);
 
 const votes = require("../../database/models/bots/vote.js");
 const botsdata = require("../../database/models/bots/bots.js");
